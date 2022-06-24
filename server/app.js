@@ -19,6 +19,7 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
 
+
 // Set up our routes
 app.use('/classes', router);
 
