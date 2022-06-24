@@ -8,7 +8,6 @@ CREATE TABLE users (
   PRIMARY KEY(id)
 );
 
-
 CREATE TABLE messages (
   /* Describe your table here.*/
   id INT AUTO_INCREMENT,

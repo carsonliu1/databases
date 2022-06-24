@@ -12,8 +12,6 @@ var getUsers = () => {
     });
   });
 };
-
-
 //get info from databse
 module.exports = {
   getAll: function (cb) {

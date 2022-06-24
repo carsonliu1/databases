@@ -13,8 +13,6 @@ module.exports = {
     });
   },
 
-
-
   create: function (body, cb) {
     let username = body.username;
     let message = body.message;
