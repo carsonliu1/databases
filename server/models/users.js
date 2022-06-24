@@ -44,8 +44,8 @@ module.exports = {
   //     }
   //   });
   // }
-
   //use ? to successfully post in database
+
   create: function (user, cb) {
     let str = ('SELECT * from USERS where username=?');
     db.query(str, [user], (err, data) => {
@@ -65,4 +65,5 @@ module.exports = {
     });
   }
 };
+
 
